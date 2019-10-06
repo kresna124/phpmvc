@@ -1,4 +1,4 @@
 <?php 
 
 
-define('BASEURL','https://localhost/phpmvc/public');
+define('BASEURL',"http://localhost/phpmvc/public");
