@@ -57,7 +57,7 @@ class Mahasiswa_model{
 					nrp = :nrp,
 					email = :email,
 					jurusan = :jurusan
-					EHERE id = :id";
+					WHERE id = :id";
 		$this->db->query($query);
 		$this->db->bind('nama',$data['nama']);
 		$this->db->bind('nrp',$data['nrp']);
